@@ -283,6 +283,14 @@ If you're building something similar:
 
 ---
 
-**Last Updated**: December 16, 2025  
+## 🚀 Launch Log (2026-09)
+
+- **Live at** [adenaufal.com/tropihug](https://adenaufal.com/tropihug) — served as a static subpath of the portfolio site (Cloudflare Pages, `frontend/public/tropihug/`), mirrored at [tropihug.pages.dev](https://tropihug.pages.dev).
+- **Images self-hosted**: 11 images moved off the Google CDN into `assets/` (~4MB PNG → 440KB JPEG). The CDN source pixels are 512px native; no quality regression vs. the CDN-served version.
+- Canonical URL for the site: `https://adenaufal.com/tropihug/`.
+
+---
+
+**Last Updated**: September 8, 2026  
 **Agent**: Claude Sonnet 4.5 via GitHub Copilot  
 **Human**: Product Designer @ LemburLab

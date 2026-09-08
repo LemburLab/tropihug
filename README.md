@@ -8,6 +8,8 @@ An editorial, conversion-focused landing page for **TropiHug™** — a premium 
 
 ## Preview
 
+**Live:** [adenaufal.com/tropihug](https://adenaufal.com/tropihug) — also at [tropihug.pages.dev](https://tropihug.pages.dev)
+
 ![TropiHug™ — hero](docs/preview-hero.jpg)
 
 **Full-page capture** (all 16 sections, top to bottom): [`docs/preview-full.jpg`](docs/preview-full.jpg)
@@ -90,6 +92,7 @@ tropihug/
 ├── thank-you.html         # Post-reserve: queue position + referral share loop
 ├── styles.css             # Design tokens + all styling (~780 lines, no framework)
 ├── main.js                # Motion.dev reveals, nav, swatches, form (progressive)
+├── assets/                # Self-hosted images (hero, covers, product, gallery)
 ├── docs/
 │   ├── preview-hero.jpg   # Above-the-fold capture
 │   ├── preview-full.jpg   # Full-page capture

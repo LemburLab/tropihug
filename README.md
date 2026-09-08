@@ -8,7 +8,7 @@ An editorial, conversion-focused landing page for **TropiHug™** — a premium 
 
 ## Preview
 
-**Live:** [adenaufal.com/tropihug](https://adenaufal.com/tropihug) — also at [tropihug.pages.dev](https://tropihug.pages.dev)
+**Live:** [tropihug.pages.dev](https://tropihug.pages.dev)
 
 ![TropiHug™ — hero](docs/preview-hero.jpg)
 

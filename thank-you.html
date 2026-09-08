@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're holding a number — TropiHug™</title>
+    <meta name="description" content="Your place in the TropiHug Batch 001 line is reserved. Move up by inviting a friend who sleeps badly.">
+    <meta name="theme-color" content="#f6f1e8">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2329332b'/%3E%3Crect x='24' y='38' width='52' height='24' rx='12' fill='%23b0533a'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="ty">
+        <div class="ty__nav"><a href="index.html">TROPIHUG™</a></div>
+        <div class="ty__main">
+            <div class="ty__card">
+                <div class="ty__tick">
+                    <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span class="eyebrow ty__eyebrow eyebrow--clay">Batch 001 · reserved</span>
+                <h1 class="ty__title">You're holding<br>a number.</h1>
+                <p class="ty__msg">We've saved your place in the first run of 200. Watch your inbox — one email when your guling is ready to ship this Fall.</p>
+
+                <div class="ty__position">
+                    <span class="lbl">Your place in line</span>
+                    <div class="num tnum">#<span id="pos">1,285</span></div>
+                    <p class="sub">Reserved for early access. <b>Move up by inviting a friend.</b></p>
+                </div>
+
+                <div class="ty__refer">
+                    <p>Share your link — every friend who reserves moves you up the line.</p>
+                    <div class="ty__copy">
+                        <input id="refLink" type="text" readonly value="https://tropihug.com/?ref=you">
+                        <button class="btn btn--ink" id="copyBtn" style="flex:0 0 auto;">Copy</button>
+                    </div>
+                    <div class="ty__share">
+                        <a id="shareWa" href="#" aria-label="Share on WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13 8l-5 1 1-5a9 9 0 1 1 17-4z"/><path d="M8.5 9c0 4 2.5 6.5 6.5 6.5"/></svg></a>
+                        <a id="shareX" href="#" aria-label="Share on X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+                        <a id="shareMail" href="#" aria-label="Share by email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+                    </div>
+                </div>
+
+                <a href="index.html" class="ty__back">← Back to TropiHug</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        (function () {
+            // Position from ?pos= (set by the reserve form), else stored, else default.
+            var params = new URLSearchParams(location.search);
+            var pos = parseInt(params.get('pos') || localStorage.getItem('tropihug_last_position') || '1285', 10);
+            document.getElementById('pos').textContent = pos.toLocaleString('en-US');
+
+            // Referral link (mock personal code).
+            var code = (localStorage.getItem('tropihug_ref') || (Math.random().toString(36).slice(2, 8)));
+            localStorage.setItem('tropihug_ref', code);
+            var link = 'https://tropihug.com/?ref=' + code;
+            var input = document.getElementById('refLink');
+            input.value = link;
+
+            var msg = 'I just reserved a TropiHug guling — the Indonesian bolster for cooler, calmer sleep. Grab a number:';
+            document.getElementById('shareWa').href = 'https://wa.me/?text=' + encodeURIComponent(msg + ' ' + link);
+            document.getElementById('shareX').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(msg) + '&url=' + encodeURIComponent(link);
+            document.getElementById('shareMail').href = 'mailto:?subject=' + encodeURIComponent('A guling worth reserving') + '&body=' + encodeURIComponent(msg + ' ' + link);
+
+            var btn = document.getElementById('copyBtn');
+            btn.addEventListener('click', function () {
+                input.select();
+                navigator.clipboard && navigator.clipboard.writeText(link);
+                btn.textContent = 'Copied!';
+                setTimeout(function () { btn.textContent = 'Copy'; }, 2000);
+            });
+
+            try {
+                var ev = JSON.parse(localStorage.getItem('tropihug_events') || '[]');
+                ev.push({ event: 'thank_you_view', props: { pos: pos }, ts: new Date().toISOString() });
+                localStorage.setItem('tropihug_events', JSON.stringify(ev));
+            } catch (e) {}
+        })();
+    </script>
+</body>
+</html>

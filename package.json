@@ -1,0 +1,15 @@
+{
+  "name": "tropihug-higgsfield-tools",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "build:pages": "node tools/build-pages.mjs",
+    "higgsfield:seedance": "node examples/index.ts"
+  },
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6"
+  }
+}

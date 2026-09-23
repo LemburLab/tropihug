@@ -1,0 +1,82 @@
+[
+  {
+    "key": "hero",
+    "output": "assets/tropihug-hero-video.mp4",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "generate_audio": false,
+    "prompt": "Five-second, 16:9 single continuous cinematic lifestyle shot for a quiet premium sleep brand designed in Bali. Dawn in an airy Indonesian bedroom: a relaxed adult in natural linen sleepwear lies on their side and gently holds a long cylindrical guling bolster with softly rounded ends, covered in muted sage woven cotton. Slow, smooth camera push toward the bed; only subtle breathing and a light curtain movement, no abrupt camera motion. Keep the person and bolster on the right half and leave the left third uncluttered and naturally shaded for large white website typography. Warm soft morning window light, cream linen, restrained teak details, a hint of tropical greenery, natural skin and fabric detail, calm editorial realism. Keep the bolster shape and position consistent throughout. No cuts, no text, no logos, no watermark. Silent film, no generated audio."
+  },
+  {
+    "key": "story",
+    "output": "assets/tropihug-story-video.mp4",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "generate_audio": false,
+    "prompt": "Five-second, 16:9 single continuous editorial film of a quiet Indonesian bedroom at first light, with no people. A long cylindrical guling bolster with softly rounded ends and a muted sage woven cotton cover rests clearly across a cream linen bed. Make a slow, steady lateral camera slide along the foot of the bed; gauzy curtains move gently in a warm morning breeze and distant tropical leaves sway softly outside. Natural soft daylight, subtle teak details, calm earthy palette, tactile believable linen and cotton, refined boutique sleep-brand art direction. Preserve the guling's long cylindrical form and its position on the bed. No cuts, no abrupt movement, no text, no logos, no watermark. Silent film, no generated audio."
+  },
+  {
+    "key": "story-home",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-story-home.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one elegant 8-second continuous cinematic shot for TropiHug, a contemporary sleep brand designed in Bali. A Balinese woman in her early 30s with warm medium-brown skin and dark shoulder-length hair sits beside a cream linen bed in an airy, contemporary Balinese home at soft morning light. She wears a simple muted sage linen blouse, understated natural makeup, no costume or ceremonial styling. She looks warmly into camera and speaks clearly in English with a gentle natural Balinese accent, never exaggerated: \"The guling is a familiar part of home.\" Keep her mouth visible during speech and naturally lip-synced; her delivery is calm, assured and conversational. A muted-sage, full-length cylindrical guling rests beside her. She gestures softly toward it. Medium framing, slow subtle camera push, teak detail and soft greenery in the background, refined editorial realism, natural skin and fabric texture. The same presenter, wardrobe, room and pillow continuity should carry across the other TropiHug presenter films. Native on-camera dialogue and quiet room tone, no voice-over, no music, no edits, no text, no logos, no watermark."
+  },
+  {
+    "key": "story-rest",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-story-rest.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one elegant 8-second continuous cinematic shot for TropiHug, a contemporary sleep brand designed in Bali. The same Balinese woman presenter, early 30s, warm medium-brown skin, dark shoulder-length hair and simple muted sage linen blouse, sits on the edge of a cream linen bed in the same airy, contemporary Balinese bedroom at soft morning light. She looks into camera and speaks clear English with a gentle natural Balinese accent, not exaggerated: \"A long shape gives your arms room.\" Keep her face and mouth unobstructed while speaking, with natural synced lip movement. A muted-sage, full-length cylindrical guling with rounded ends lies beside her. As she finishes, she settles one arm gently across it to demonstrate its length and comfort without hiding her face. Medium-wide framing with a slow, subtle lateral camera move, natural skin and cotton detail, calm boutique editorial realism, restrained teak and soft greenery. Preserve the same presenter, wardrobe, room and guling design as the companion TropiHug clips. Native on-camera dialogue with quiet room tone, no voice-over, no music, no scene cuts, no text, no logos, no watermark."
+  },
+  {
+    "key": "story-materials",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-story-materials.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one elegant 8-second continuous cinematic shot for TropiHug, a contemporary sleep brand designed in Bali. The same Balinese woman presenter, early 30s, warm medium-brown skin, dark shoulder-length hair and muted sage linen blouse, stands at the bedside in the same airy Balinese home with a full-length muted-sage cylindrical guling on a cream linen bed. She faces camera and speaks naturally in English with a gentle, unexaggerated Balinese accent: \"We keep the form and choose thoughtful materials.\" Keep her mouth clearly visible and dialogue naturally lip-synced. She lightly brushes her fingertips over the soft woven pillow cover, then meets the viewer's eyes again. Medium close framing, subtle smooth camera push, soft window light, grounded natural skin and fabric texture, refined quiet editorial style. Keep presenter, clothes, room and guling consistent with companion TropiHug videos. Native on-camera dialogue, quiet room tone, no voice-over, no music, no cuts, no text, no logos, no watermark."
+  },
+  {
+    "key": "pillow-form",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-pillow-form.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one 8-second continuous premium product presentation for TropiHug in the same airy Balinese bedroom with cream linen bedding and soft morning light. The same adult Balinese woman presenter, early 30s, warm medium-brown skin, shoulder-length dark hair, simple muted-sage linen blouse, stands beside a single full-length muted-sage cylindrical guling with softly rounded ends. She looks into camera, face and mouth unobstructed, and speaks in clear English with a gentle natural Balinese accent, not exaggerated: \"A full-length bolster made to hold close.\" She then runs one hand smoothly along the pillow to reveal its adult length while keeping its long cylindrical shape intact. Single medium-wide composition, soft controlled camera push, calm boutique product film, true-to-life proportions and fabric detail. Match the TropiHug presenter, wardrobe and room used in the story films. Native on-camera dialogue, gentle room tone only, no voice-over, no music, no cuts, no floating text, no logos, no watermark."
+  },
+  {
+    "key": "pillow-cover",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-pillow-cover.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one 8-second continuous premium product presentation for TropiHug in the same softly lit Balinese bedroom. The same adult Balinese woman presenter, early 30s, warm medium-brown skin, shoulder-length dark hair, wearing her simple muted-sage linen blouse, stands beside a single full-length muted-sage cylindrical guling on a cream linen bed. She faces camera and speaks clear English with a gentle, natural Balinese accent, never exaggerated: \"A soft, removable cover makes care simple.\" Her mouth remains clearly visible and naturally lip-synced. She gently pinches and smooths the woven cover fabric on the pillow, showing its tactile surface without changing its shape or removing the cover. Medium composition with the woman and pillow both clear, a slow subtle camera drift, soft daylight, authentic fabric detail, restrained editorial styling. Keep presenter, outfit and room consistent with the companion videos. Native on-camera dialogue and quiet room tone, no voice-over, no music, no scene cuts, no text, no logos, no watermark."
+  },
+  {
+    "key": "pillow-colours",
+    "model": "kling-video/v3.0/pro/text-to-video",
+    "output": "assets/tropihug-kling-pillow-colours.mp4",
+    "duration": 8,
+    "aspect_ratio": "16:9",
+    "output_format": "mp4",
+    "sound": "on",
+    "prompt": "Create one 8-second continuous premium product presentation for TropiHug in the same airy, softly lit Balinese bedroom. The same adult Balinese woman presenter, early 30s, warm medium-brown skin, shoulder-length dark hair and muted-sage linen blouse, stands beside one full-length muted-sage cylindrical guling on a cream linen bed. Two or three neatly folded fabric swatches in warm sand, dusky rose and deep indigo rest on a small teak bench nearby, while the pillow itself remains sage and keeps its shape. She looks into camera and says in clear English with a gentle natural Balinese accent, not exaggerated: \"Choose a cover that feels like yours.\" Keep mouth visible with natural synced speech. She gestures toward the swatches with an inviting, understated smile. Medium-wide frame, slow subtle camera push, accurate textile texture, warm daylight and calm editorial product-film style. Maintain the same presenter, wardrobe and room as the other TropiHug videos. Native on-camera dialogue with quiet room tone, no voice-over, no music, no cuts, no text, no logos, no watermark."
+  }
+]

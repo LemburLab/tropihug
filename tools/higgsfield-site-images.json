@@ -1,0 +1,50 @@
+[
+  {
+    "key": "hero",
+    "base": "assets/hero",
+    "aspect_ratio": "16:9",
+    "prompt": "Premium editorial lifestyle photograph for TropiHug, a quiet Indonesian sleep brand. A relaxed Indonesian adult in modest natural linen sleepwear rests on their side, gently hugging a long cylindrical guling bolster with rounded ends, covered in soft muted sage cotton. Warm early-morning window light, tactile cream linen bedding, calm tropical home, natural skin texture, art-directed composition with generous uncluttered dark space on the left for a website headline, cinematic but believable, analog-film softness, earthy palette, no text, no logos, no watermark, no extra pillows obscuring the bolster."
+  },
+  {
+    "key": "bedroom",
+    "base": "assets/bedroom",
+    "aspect_ratio": "3:2",
+    "prompt": "Quiet premium editorial photograph of an airy Indonesian bedroom at first light, viewed wide. A long cylindrical guling bolster with rounded ends rests clearly across a neatly made cream linen bed; muted sage cotton cover, simple teak details, a hint of tropical greenery outside, soft morning sun and natural shadows, restrained warm ivory and earthy green palette, realistic boutique sleep-brand art direction, no people, no text, no logo, no watermark."
+  },
+  {
+    "key": "cover-sage",
+    "base": "assets/cover-sage",
+    "aspect_ratio": "1:1",
+    "prompt": "Studio product photograph for a premium Indonesian sleep brand: one long cylindrical guling body bolster, unmistakably rounded at both ends, lying horizontally on a warm pale-stone plinth. Soft Ubud sage green woven cotton cover with fine natural texture, seamless warm ivory background, gentle directional daylight, subtle grounded shadow, centered full product with breathing room, refined editorial catalog photography, no person, no text, no label, no logo, no watermark."
+  },
+  {
+    "key": "detail-weave",
+    "base": "assets/detail-weave",
+    "aspect_ratio": "1:1",
+    "prompt": "Tactile macro editorial photograph of a softly woven muted sage cotton guling cover, showing a close but recognizable curve of the long cylindrical bolster and its fine breathable fabric weave. Warm raking morning light reveals fibers and gentle folds, calm cream background, premium natural-material product photography, realistic texture, no text, no labels, no logo, no watermark."
+  },
+  {
+    "key": "cover-sand",
+    "base": "assets/cover-sand",
+    "aspect_ratio": "1:1",
+    "prompt": "Studio product photograph matching a premium Indonesian sleep-brand catalog: one long cylindrical guling bolster with rounded ends, lying horizontally on a warm pale-stone plinth. Natural sand and oatmeal colored woven cotton cover, seamless warm ivory background, gentle directional daylight, subtle grounded shadow, centered full product with breathing room, refined editorial catalog photography, no person, no text, no label, no logo, no watermark."
+  },
+  {
+    "key": "cover-dusk",
+    "base": "assets/cover-dusk",
+    "aspect_ratio": "1:1",
+    "prompt": "Studio product photograph matching a premium Indonesian sleep-brand catalog: one long cylindrical guling bolster with rounded ends, lying horizontally on a warm pale-stone plinth. Muted dusk plum and warm charcoal woven cotton cover, seamless warm ivory background, gentle directional daylight, subtle grounded shadow, centered full product with breathing room, refined editorial catalog photography, no person, no text, no label, no logo, no watermark."
+  },
+  {
+    "key": "cover-indigo",
+    "base": "assets/cover-indigo",
+    "aspect_ratio": "1:1",
+    "prompt": "Studio product photograph matching a premium Indonesian sleep-brand catalog: one long cylindrical guling bolster with rounded ends, lying horizontally on a warm pale-stone plinth. Deep indigo cotton with a restrained hand-blocked Indonesian batik-inspired botanical motif in natural ivory, seamless warm ivory background, gentle directional daylight, subtle grounded shadow, centered full product with breathing room, refined editorial catalog photography, no legible text, no label, no logo, no watermark."
+  },
+  {
+    "key": "cta-bg",
+    "base": "assets/cta-bg",
+    "aspect_ratio": "16:9",
+    "prompt": "Wide cinematic editorial photograph for a quiet premium Indonesian sleep brand: a serene bedroom at blue-hour dusk, a long cylindrical guling bolster with rounded ends resting across a cream linen bed, soft muted sage cover, warm bedside lamp and deep forest-green shadows. Leave broad uncluttered dark negative space through the center for white website copy, low contrast behind the text area, tactile natural materials, believable photography, no people, no text, no logos, no watermark."
+  }
+]

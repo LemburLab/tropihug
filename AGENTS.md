@@ -330,3 +330,13 @@ If you're building something similar:
 **Last Updated**: September 8, 2026  
 **Agent**: Claude Sonnet 4.5 via GitHub Copilot  
 **Human**: Product Designer @ LemburLab
+
+---
+
+## Local Higgsfield Agent Tool
+
+- Use `node tools/higgsfield.mjs` for local prompt-to-image and prompt-to-video generation.
+- Read credentials from the ignored project-root `.env.local` (`HF_CREDENTIALS`); the legacy `.env` pair is also supported. Never print, copy into prompts, or commit key material.
+- Site image prompts live in `tools/higgsfield-site-images.json`. Run `site-images --dry-run` to inspect them; `site-images` uses Marketing Studio Image (2.5 Sunburst) and replaces only after each output has downloaded successfully.
+- Prompt-to-video requests use Seedance 2.5. The CLI saves request IDs locally and supports `status`, `wait`, and `download`.
+- Do not use `--force` unless the project owner asks for a new billable generation.
